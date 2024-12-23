@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Турция</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 1cm 2cm; /* Уменьшен верхний отступ до 1см, 2 см от краёв слева и справа */
+            background-color: #f5f5f5; /* Цвет фона для всего тела */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2; /* Увеличена высота строки для лучшей читаемости */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        img.shadow {
+            width: 100%;
+            max-width: 800px; /* Увеличьте максимальную ширину изображения */
+            height: auto; /* Поддерживает пропорции изображения */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+            margin-right: 20px;
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 2; /* Увеличена высота строки для лучшей читаемости */
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .bottom-text {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 2; /* Увеличена высота строки для лучшей читаемости */
+        }
+    </style>
+</head>
+<body>
+    <h1>Аерофлот</h1>
+    <p>
+        Путешествия с Аерофлотом оставят незабываемые ощущения.
+        Насладитесь нашим сервисом, признаным одним из лучших в мире.
+    </p>
+    <div class="content">
+        <img src="0-0_74121505338600.jpg" alt="Аерофлот" class="shadow" />
+        <div class="text">
+            <p>
+                Вы можете насладится бортовым питанием в полетах
+                длительностью более трех часов.
+            </p>
+            <button onclick="window.location.href='details.html'">
+                Посмотреть билеты
+            </button>
+        </div>
+    </div>
+    <div class="bottom-text">
+        <p>
+            Аерофлот также предоставляет услуги бизнес-класса.
+	    За более высокую стоимость вы сможете путешествовать с комфортом высшего уровня.
+        </p>
+    </div>
+</body>
+</html>
